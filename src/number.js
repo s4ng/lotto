@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Number() {
+function number() {
     ranNum = () => {
         let lotto = new Array();
         let count = 0;
@@ -26,11 +26,11 @@ function Number() {
         render(){
             <div className="Number">
                 <span className="num">
-
+                    ss
                 </span>
             </div>
         }
     })
 }
 
-export default Number;
+export default number;
