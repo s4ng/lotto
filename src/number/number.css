@@ -1,0 +1,18 @@
+.num_container{
+    font-size:50px;
+    display : flex;
+    color : #27C2F8;
+    margin : 20px;
+}
+.num_box{
+    border:3px solid #0998C9;
+    border-radius: 5px;
+    height:100px;
+    width:100px;
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    margin : 20px;
+    padding-top : auto;
+    padding-bottom: auto;
+}
