@@ -1,30 +1,30 @@
 import React from 'react';
 import './number.css';
 
-function number() {
+function Number(props) {
     return(
         <div className="num_container">
            <div className="num_box">
-            12
+            {props.no1}
            </div>
            <div className="num_box">
-            12
+            {props.no2}
            </div>
            <div className="num_box">
-            12
+            {props.no3}
            </div>
            <div className="num_box">
-            12
+             {props.no4}
            </div>
            <div className="num_box">
-            12
+              {props.no5}
            </div>
            <div className="num_box">
-            12
+             {props.no6}
            </div>
         </div>
     )
 }
 
 
-export default number;
+export default Number;
