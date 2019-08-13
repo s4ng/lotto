@@ -1,6 +1,7 @@
 .num_container{
     font-size:50px;
     display : flex;
+    flex-wrap:wrap;
     color : #27C2F8;
     margin : 20px;
 }
@@ -15,4 +16,11 @@
     margin : 20px;
     padding-top : auto;
     padding-bottom: auto;
+}
+
+@media (max-width : 800px){
+    .num_container{
+        justify-content: center;
+        margin-top : 40px;
+    }
 }
