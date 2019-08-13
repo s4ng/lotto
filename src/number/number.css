@@ -22,5 +22,12 @@
     .num_container{
         justify-content: center;
         margin-top : 40px;
+        font-size : 40px;
+    }
+    .num_box{
+        height:80px;
+        width:80px;
+        line-height: 80px;
+        margin : 10px;
     }
 }
